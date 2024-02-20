@@ -199,3 +199,70 @@
     margin-right: 20px;
     padding: 4px;
 }
+main{
+    background-color: #E6E6E6;
+}
+.home-content{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+}
+
+.home-image{
+    background-image: url('Images/home_image.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.small-banner{
+   
+    text-align: center;
+    background-color: #F5F6F6;
+    height: 40px;
+    width: 100%;
+    line-height: 2.5;
+    margin-bottom: 25px;
+    margin-left:2%;
+    margin-right:2%;
+   
+}
+.small-banner a{
+    color:#007185;
+    text-decoration: none;
+}
+.shopping-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.b1{
+    height: 420px;
+    width: 350px;
+    margin: 0.7rem;
+    background-color: white;
+}
+.cards-first-para{
+    padding-top:15px;
+    padding-left: 11px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-link{
+  padding-left: 20px;
+ 
+}
+.card-link a{
+    text-decoration: none;
+    color:#007185;
+}
+.card-image{
+    margin: 20px 15px 20px 15px;
+    height: 300px;
+    width: 320px;
+    background-size: cover;
+}
